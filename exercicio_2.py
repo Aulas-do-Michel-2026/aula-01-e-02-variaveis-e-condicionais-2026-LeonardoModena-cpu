@@ -13,3 +13,8 @@ Digite o peso do paciente (em kg):
 Resposta:
 Média: 140 mg
 """
+
+Peso_paciente = float(input("Digite o peso do paciente: "))
+Dose = Peso_paciente * 2
+
+print(f"A dose recomendada é: {Dose}")
