@@ -28,4 +28,4 @@ Nota_3 = float(input ("Digite a nota 3: "))
 
 Media = (Nota_1 + Nota_2 + Nota_3) / Quantas_notas
 
-print(f"A média é: {Media: .2f}")
+print(f"A média é: {Media:.2f}")
