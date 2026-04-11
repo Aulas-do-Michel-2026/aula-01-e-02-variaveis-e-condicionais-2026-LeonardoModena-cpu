@@ -63,7 +63,7 @@ genoma = str(input("Digite o genoma de referência (ex: Hg38): "))
 if cromossomo == "chr17" and genoma == "Hg19" and 41196312 < Posicao < 41277500: 
     print("Sim, a variante está no gene BRCA1")
 
-elif cromossomo == "chr17" and genoma == "Hg38" and 43044295 <= Posicao <= 43125483:
+elif cromossomo == "chr17" and genoma == "Hg38" and 43044295 < Posicao < 43125483:
     print("Sim, a variante está no gene BRCA1")
 
 else:
