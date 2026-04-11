@@ -57,8 +57,8 @@ Não
 """
 
 cromossomo = str(input("Digite o nome do cromossomo (ex: chr5): "))
-genoma = str(input("Digite o genoma de referência (ex: Hg38): "))
 Posição = int(input("Digite a posição da variante: "))
+genoma = str(input("Digite o genoma de referência (ex: Hg38): "))
 
 if cromossomo == "chr17" and genoma == "Hg19" and 41196312 <= Posição <= 41277500: 
     print("Sim, a variante está no gene BRCA1")
