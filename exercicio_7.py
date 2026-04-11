@@ -88,3 +88,23 @@ Esse exercício está com uma resolução no notebook da aula.
 
 Tente, se não der, olhe lá!
 """
+
+Frequencia_populacional = float(input("Qual é a Frequência populacional? ex:45 "))
+Gene = str(input("Qual o gene?"))
+Impacto = str(input("Digite o impacto da variante? (ALTO ou BAIXO) "))
+Reads = int(input("Qual a quantidade de reads dessa variante?"))
+Vaf = float(input("Qual a frequência alelica dessa variante? ex:30 "))
+
+Genes_excessão = (Gene == "HFE") or (Gene == "MEFV") or (Gene == "GJB2")
+
+if (Reads < 10) or (Vaf < 20):
+    print("Essa variante não é relevante, deve ser um artefato!")
+
+elif Impacto == "BAIXO":
+    print("Não é relevante")
+
+elif (Frequencia_populacional > 5) and not Genes_excessão:
+    print("Não é relevante")
+
+else:
+    print("Essa variante é relevante")
