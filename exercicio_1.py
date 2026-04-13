@@ -20,7 +20,7 @@ Lembre de converter ele para o tipo necessário!
 Print na tela com "print"
 """
 
-Quantas_notas = int(input ("Digite o numero de notas : "))
+Quantas_notas = int(input ("Digite o numero de notas: "))
 
 Nota_1 = float(input ("Digite a nota 1: "))
 Nota_2 = float(input ("Digite a nota 2: "))
