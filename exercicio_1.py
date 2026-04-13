@@ -20,12 +20,11 @@ Lembre de converter ele para o tipo necessário!
 Print na tela com "print"
 """
 
-Quantas_notas = (input ("Digite o numero de notas: "))
 
 Nota_1 = float(input ("Digite a nota 1: "))
 Nota_2 = float(input ("Digite a nota 2: "))
 Nota_3 = float(input ("Digite a nota 3: "))
 
-Media = (Nota_1 + Nota_2 + Nota_3) / Quantas_notas
+Media = (Nota_1 + Nota_2 + Nota_3) / 3
 
 print(f"A média é: {Media:.2f}")
